@@ -1,0 +1,34 @@
+.mobile{
+    display: block;
+    background: chartreuse;
+    font-size: 20px;
+}
+.tablet{
+    display: none;
+}
+.laptop{
+    display: none;
+}
+@media(min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        background: yellow;
+        font-size: 30px;
+    }
+}
+@media(min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display: block;
+        background: violet;
+        font-size: 60px;
+    }
+}

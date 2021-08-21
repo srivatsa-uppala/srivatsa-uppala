@@ -1,0 +1,42 @@
+.static{
+    position: static;
+    border: 2px solid blue;
+}
+.relative{
+    position:relative;
+    border: 2px solid blue;
+    left: 30px;
+    top: 10px;
+}
+
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73ad21;
+}
+
+.relative2{
+    position: relative;
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 200px;
+}
+.absolute{
+    position:absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid blue;
+    
+}
+.sticky{
+    position: sticky;
+    top: 50px;
+    padding: 5px;
+    background: #cae8ca;
+    border:2px solid #4caf50;
+}

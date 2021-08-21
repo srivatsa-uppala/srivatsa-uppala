@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    padding: 50px;
+}
+.parent{
+    background: whitesmoke;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    /*flex-wrap: nnwrap;*/
+    align-items: center;
+
+}
+.child{
+    background-image: linear-gradient(rgb(97, 3, 248),rgb(69, 5, 143),blue);
+    height: 300px;
+    width: 300px;
+    
+}
+.child1{
+    background-image: linear-gradient(blue,black,rgb(97, 3, 248));
+    height: 300px;
+    width: 300px;
+    align-self: flex-start;
+    
+}
+.child2{
+    background-image: linear-gradient(rgb(97, 3, 248),blue,black);
+    height: 300px;
+    width: 300px;
+    align-self: flex-end;
+    
+}

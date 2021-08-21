@@ -1,0 +1,30 @@
+.btn{
+    background: red;
+    color: white;
+}
+/*pseudo class*/
+.btn:hover{
+    background-color: purple;
+    color: red;
+}
+.btn:active{
+    background-color: black;
+    color: yellow;
+}
+.btn:focus{
+    background-color: green;
+    color: yellow;
+}
+/*pseudo element*/
+.para::before{
+    content: "My name is:";
+    color: green;
+}
+.para::after{
+    content: "UPPALA";
+    color: black;
+}
+.para::selection{
+    background: green;
+
+}
